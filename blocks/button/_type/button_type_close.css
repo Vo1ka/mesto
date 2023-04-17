@@ -1,0 +1,24 @@
+.button_type_close{
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../../../images/CloseIcon.png);
+    border: 0;
+}
+
+@media screen and (max-width: 879px) {
+    .button_type_close{
+        top: -36px;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        background-position: center;
+    }
+}
+
+.button_type_close:hover{
+    opacity: 0.6;
+}

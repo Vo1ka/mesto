@@ -1,0 +1,14 @@
+.button_type_trash{
+    position: absolute;
+    z-index: 5;
+    background-image: url(../../../images/Trash.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 20px;
+    background-position: center;
+    border: 0;
+}
+
+.button_type_trash:hover{
+    opacity: 0.5;
+}

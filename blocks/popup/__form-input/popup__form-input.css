@@ -1,0 +1,20 @@
+.popup__form-input{
+    width: 358px;
+    margin: 30px 36px 0;
+    height: 27px;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+@media screen and (max-width: 879px) {
+    .popup__form-input{
+        width: 238px;
+        margin: 30px 22px 0;
+    }
+}
